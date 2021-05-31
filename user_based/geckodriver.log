@@ -1,0 +1,27 @@
+1616436100171	geckodriver	INFO	Listening on 127.0.0.1:57993
+1616436101192	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/t1/xxv2_6k515d808wbb7f182f40000gn/T/rust_mozprofile4dmKuK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616436104028	Marionette	INFO	Listening on port 58005
+1616436104094	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616436134908	geckodriver	INFO	Listening on 127.0.0.1:58113
+1616436135921	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/t1/xxv2_6k515d808wbb7f182f40000gn/T/rust_mozprofileA3vZy5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616436138361	Marionette	INFO	Listening on port 58126
+1616436138420	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616436165128	geckodriver	INFO	Listening on 127.0.0.1:58226
+1616436166137	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/t1/xxv2_6k515d808wbb7f182f40000gn/T/rust_mozprofile3jauFj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616436168612	Marionette	INFO	Listening on port 58237
+1616436168709	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616436278467	Marionette	INFO	Stopped listening on port 58005
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616436279870	Marionette	INFO	Stopped listening on port 58237
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616436281268	Marionette	INFO	Stopped listening on port 58126
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
