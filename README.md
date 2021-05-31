@@ -4,7 +4,9 @@
 
 ```
  python3 content_based.py # Create and save the content-based model 
+ 
  python3 user_based.py # Create and save the user-based model
+ 
  python3 user_interface.py # Lauch the application
 ```
 
