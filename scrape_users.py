@@ -5,7 +5,6 @@ import csv
 import os
 import time
 import re
-import concurrent.futures
 
 MAX_THREADS = 30
 

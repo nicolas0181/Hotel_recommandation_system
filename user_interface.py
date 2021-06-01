@@ -1,6 +1,6 @@
 from PyQt5.QtGui import QFont
 import sys
-from PyQt5.QtWidgets import QMainWindow, QApplication, QTabWidget, QCompleter, QAction, qApp, QTextEdit,QRadioButton, QPushButton, QHBoxLayout, QWidget, QVBoxLayout,QToolTip, QLineEdit, QLabel
+from PyQt5.QtWidgets import QMainWindow, QApplication, QTabWidget, QCompleter, QRadioButton, QPushButton, QWidget, QVBoxLayout, QLineEdit, QLabel
 from content_based_algorithm import content_recommender as contentBasedML
 from content_based_algorithm import pickle_model as contentBasedTrainedModel
 from content_based_algorithm import get_hotels

@@ -1,13 +1,9 @@
-from surprise import KNNBasic, KNNWithMeans, KNNWithZScore
-from surprise import SVD, SVDpp, NMF
+from surprise import KNNBasic
+from surprise import SVD, SVDpp
 from surprise import Dataset
-from surprise.model_selection import cross_validate
 from surprise import Reader
 from surprise import accuracy
-from surprise.model_selection import train_test_split
-from surprise.model_selection import GridSearchCV
 import pandas as pd
-import matplotlib.pyplot as plt
 
 df = pd.read_csv('../Tripadvisor_users.csv')
 

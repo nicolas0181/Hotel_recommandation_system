@@ -10,7 +10,7 @@ def load_sets(base):
     df = pd.read_csv('../Tripadvisor_users.csv')
     reader = Reader(rating_scale=(1, 5))
     data = Dataset.load_from_df(df[['Username', 'Hotel_Name', 'Note']], reader)
-    sim_options = {'name': 'cosine', 'user_based': base}
+    sim_options = {'name': 'cosine', 'ml_optimization': base}
     trainset = data.build_full_trainset()  # Build on entire data set with values
     testset = trainset.build_anti_testset() # Build on data set that has no rating
     return sim_options, trainset, testset

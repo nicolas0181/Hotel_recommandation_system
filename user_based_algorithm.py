@@ -1,4 +1,4 @@
-from surprise import SVD, NMF, KNNBasic, KNNWithMeans
+from surprise import KNNBasic
 from surprise import Dataset
 from surprise import accuracy
 from collections import defaultdict
@@ -21,7 +21,7 @@ def user_based_model(n):
     reader = Reader()
     data = Dataset.load_from_df(df[['Username', 'Hotel_Name', 'Note']], reader)
     sim_options = {'name': 'cosine',
-                   'user_based': True,  # compute  similarities between items
+                   'ml_optimization': True,  # compute  similarities between items
                    'k': 4
                    }
 
@@ -58,7 +58,7 @@ def item_based_model(n):
     reader = Reader()
     data = Dataset.load_from_df(df[['Username', 'Hotel_Name', 'Note']], reader)
     sim_options = {'name': 'cosine',
-                   'user_based': False,  # compute  similarities between items
+                   'ml_optimization': False,  # compute  similarities between items
                    'k': 4
                    }
     algo = KNNBasic(sim_options=sim_options)
