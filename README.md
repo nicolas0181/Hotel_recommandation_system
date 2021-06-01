@@ -21,6 +21,7 @@ Install the following librairies :
 - scikit-learn 0.20 or higher
 - scikit-surprise 1.0 or higher
 - selenium 3.0 or higher
+- PyQt5
 
 ## What it does ?
 This programm has a scrapping part to scrape data from TripAdvisor and create csvs with informations of the users and the hotels.
